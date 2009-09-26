@@ -1,0 +1,15 @@
+:jabber:
+  :id: 'asdf@gmail.com'
+  :pw: 'asdf'
+  :name: 'name'
+  :conference_room: 'room@server.com'
+  :resource: 'resource'
+  :port: 5222
+  :master: 'master-jabber@adress.com'
+:irc:
+  :nick: 'nick'
+  :user: 'user'
+  :name: 'Real name'
+  :server: 'zone.ircworld.org'
+  :channel: '#channel'
+  :port: 6667
