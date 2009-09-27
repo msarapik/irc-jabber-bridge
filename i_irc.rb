@@ -43,7 +43,7 @@ class IRC
         next
       end
 
-      if msg.match(/^:(.+?)!.+?@.+?\sPRIVMSG.*(\#.*)\:(.*)/i)
+      if msg.match(/^:(.+?)!.+?@.+?\sPRIVMSG.*?(#\w*)\s\:(.+)$/i)
         nick    = $~[1].strip
         channel = $~[2].strip
         text    = $~[3].strip
